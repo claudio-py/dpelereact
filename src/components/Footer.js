@@ -3,20 +3,20 @@ import './Footer.css'
 export default function Footer(){
 return(
    <footer id="footer">
-      <section class="pre-footer">
-        <div class="infobox">
+      <section className="pre-footer">
+        <div className="infobox">
           <h2>Descubra a leveza de se cuidar na Clínica D`PELE</h2> <button>AGENDE UMA CONSULTA <i
-              class="fa-solid fa-arrow-right-long"></i></button>
+              className="fa-solid fa-arrow-right-long"></i></button>
         </div>
       </section>
-      <section class="last">
-        <div class="footer-logo">
+      <section className="last">
+        <div className="footer-logo">
           <h2>D`PELE</h2>
           <p>Responsável técnico Médico:</p>
           <p>Responsável técnico Médico:</p>
           <p>Responsável técnico Médico:</p>
         </div>
-        <div class="last-footer">
+        <div className="last-footer">
           <div>
             <h3>Endereço</h3>
             <p>Rua Canadá, 215, Jd. América – São Paulo SP</p>
@@ -27,7 +27,7 @@ return(
           </div>
           <div>
             <h3>Acompanhe</h3>
-            <ul class="social-links">
+            <ul className="social-links">
               <li> <a href="# "> <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
