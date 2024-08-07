@@ -1,6 +1,6 @@
 import './Wpp.css'
-export default function Wpp(){
-  return(
+export default function Wpp() {
+  return (
     <div class="wpp">
       <a
         href="https://api.whatsapp.com/send?phone=5592988665533"
