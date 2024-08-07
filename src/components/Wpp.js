@@ -1,13 +1,14 @@
 import './Wpp.css'
 export default function Wpp() {
   return (
-    <div class="wpp">
+    <div className="wpp">
       <a
         href="https://api.whatsapp.com/send?phone=5592988665533"
-        target="_blank">
-        <img className="about-logo" src={`${process.env.PUBLIC_URL}/logo192.png`} alt="" />
+        target="_blank"
+        rel="noreferrer">
+        <img className="about-logo" src={`${process.env.PUBLIC_URL}/logo192.png`} alt="wpp" />
       </a>
-      <object type="image/svg+xml" data={`${process.env.PUBLIC_URL}/assets/wpp.svg`}></object>
+      <object type="image/svg+xml" data={`${process.env.PUBLIC_URL}/assets/wpp.svg`} aria-label="wpp" ></object>
     </div>
   )
 }
