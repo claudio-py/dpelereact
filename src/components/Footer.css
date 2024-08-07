@@ -5,6 +5,10 @@
 #footer p{
 	color: var(--bg-light);
 }
+#footer .infobox{
+	align-items: center;
+	text-align: center;
+}
 .pre-footer{
 	background-image: url(../../public/assets/footer-bg.jpeg);
 	background-position: center;
