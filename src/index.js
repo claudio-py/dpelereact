@@ -4,7 +4,7 @@ import './index.css';
 import App from './App'
 import Footer from './components/Footer'
 import Header from './components/Header'
-
+import Wpp from './components/Wpp'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +12,7 @@ root.render(
     <Header />
     <App  />
     <Footer/>
+    <Wpp/>
   </React.StrictMode>
 );
 
