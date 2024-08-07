@@ -1,19 +1,19 @@
+/* ==============GLOBAL HOME============= */
+main section .infobox{
+		align-items: start;
+	text-align: start;
+}
+
 /*=========== SERVICE SECTION========= */
-#service {
+/* #service {
 margin-top: 3rem;
 
-}
+} */
 .service-title > * {
 margin-bottom: 1.5rem;
 }
 
-.service-buttons{
-	width: 100%;
-}
-#service button{
-	width: 95%;
-  margin-inline: auto;
-}
+
 /* ================ABOUT=================== */
 #about{
 	margin-top: 5rem;
