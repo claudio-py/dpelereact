@@ -17,7 +17,7 @@ export default function Home() {
           <Button text='serviço tres' url='localhost:3000/servicetres' />
           <Button text='serviço quatro' url='localhost:3000/servicequatro' />
           <Button text='serviço cinco' url='localhost:3000/servicecinco' />
-          <Button text="função onClick" onClick={() => { window.alert('you clicked a buton') }} />
+          <Button text="função onClick" onClick={() => { window.alert("you clicked a button") }} />
           <Button text="urltest" url="#" />
         </div>
       </section>
